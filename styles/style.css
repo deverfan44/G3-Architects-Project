@@ -22,8 +22,9 @@ li{
     list-style: none;
 }
 /* Shared CSS  */
+
 .fixed_container{
-    width: 80%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .d_flex{
@@ -382,6 +383,10 @@ nav ul li a {
 }
 
 @media screen and (min-width:567px) and (max-width:768px) {
+    .fixed_container{
+        width: 80%;
+        margin: 0 auto;
+    }
     nav {
         flex-direction: column;
         row-gap: 10px;
@@ -442,6 +447,11 @@ nav ul li a {
     }
     .service_float h1{
         font-size: 25px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1366px){
+    .fixed_container{
+        width: 80%;
     }
 }
 
