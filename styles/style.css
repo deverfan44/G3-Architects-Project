@@ -283,6 +283,10 @@ nav ul li a {
 
 
 @media screen and (max-width:566px) {
+    .fixed_container{
+        width: 90%;
+        margin: 0 auto;
+    }
     nav {
         flex-direction: column;
         row-gap: 10px;
