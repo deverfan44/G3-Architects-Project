@@ -272,6 +272,7 @@ nav ul li a {
 }
 .sponser_logo img{
     max-width: 100%;
+    filter: grayscale(100%);
 }
 
 /* footer section  */
